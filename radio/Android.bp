@@ -4,7 +4,7 @@
 //
 
 prebuilt_etc {
-    name: "rild_dsds.rc",
-    src: "rild_dsds.rc",
+    name: "rild_duos.rc",
+    src: "rild_duos.rc",
     relative_install_path: "init",
 }
