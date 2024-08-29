@@ -47,9 +47,6 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../$(COMMON_PATH)/recovery/recovery_keys.
 TARGET_LD_SHIM_LIBS += \
     /system/vendor/lib/libril-qc-qmi-1.so|libril_shim.so
 
-# Include
-TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/klte-include
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_klteduos
 
